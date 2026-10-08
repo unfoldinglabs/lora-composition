@@ -1,0 +1,31 @@
+{
+  "composition_id": "field_sorting__value_normalization__cat__wa0.25_wb0.75",
+  "interference_a": [
+    0.24,
+    0.38,
+    0.28
+  ],
+  "interference_b": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "interference_latent_a": [
+    0.31999999999999995,
+    0.30000000000000004,
+    0.33999999999999997
+  ],
+  "interference_latent_b": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "relationship_type": "overlapping",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_sorting",
+  "skill_b": "value_normalization"
+}

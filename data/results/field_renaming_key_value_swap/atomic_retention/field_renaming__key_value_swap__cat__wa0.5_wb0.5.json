@@ -1,0 +1,75 @@
+{
+  "composition_id": "field_renaming__key_value_swap__cat__wa0.5_wb0.5",
+  "relationship_type": "highly_similar",
+  "retention_iid": [
+    {
+      "delta_a_composed": 1.0,
+      "delta_a_standalone": 1.0,
+      "delta_b_composed": 0.96,
+      "delta_b_standalone": 1.0,
+      "interference_a": 0.0,
+      "interference_b": 0.040000000000000036,
+      "retention_a": 1.0,
+      "retention_b": 0.96
+    },
+    {
+      "delta_a_composed": 1.0,
+      "delta_a_standalone": 1.0,
+      "delta_b_composed": 0.96,
+      "delta_b_standalone": 1.0,
+      "interference_a": 0.0,
+      "interference_b": 0.040000000000000036,
+      "retention_a": 1.0,
+      "retention_b": 0.96
+    },
+    {
+      "delta_a_composed": 1.0,
+      "delta_a_standalone": 1.0,
+      "delta_b_composed": 0.96,
+      "delta_b_standalone": 1.0,
+      "interference_a": 0.0,
+      "interference_b": 0.040000000000000036,
+      "retention_a": 1.0,
+      "retention_b": 0.96
+    }
+  ],
+  "retention_latent": [
+    {
+      "delta_a_composed": 0.8,
+      "delta_a_standalone": 0.8,
+      "delta_b_composed": 0.96,
+      "delta_b_standalone": 1.0,
+      "interference_a": 0.0,
+      "interference_b": 0.040000000000000036,
+      "retention_a": 1.0,
+      "retention_b": 0.96
+    },
+    {
+      "delta_a_composed": 0.84,
+      "delta_a_standalone": 0.84,
+      "delta_b_composed": 0.96,
+      "delta_b_standalone": 1.0,
+      "interference_a": 0.0,
+      "interference_b": 0.040000000000000036,
+      "retention_a": 1.0,
+      "retention_b": 0.96
+    },
+    {
+      "delta_a_composed": 0.8,
+      "delta_a_standalone": 0.8,
+      "delta_b_composed": 0.92,
+      "delta_b_standalone": 1.0,
+      "interference_a": 0.0,
+      "interference_b": 0.07999999999999996,
+      "retention_a": 1.0,
+      "retention_b": 0.92
+    }
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_renaming",
+  "skill_b": "key_value_swap"
+}

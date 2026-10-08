@@ -1,0 +1,26 @@
+{
+  "config_hash": "8ac6378637a4213f7da2659a375df8bd20b92f3df27e117bfa527666b89b8f70",
+  "created_at": "2026-10-08T14:47:27Z",
+  "splits": {
+    "test_iid": {
+      "count": 50,
+      "file": "datasets/duplicate_removal_v001_seed43/test_iid.jsonl",
+      "sha256": "5996b350fbd8e12953f21c48df056559b727afcd59616c438226f0bf975a14bc"
+    },
+    "test_latent": {
+      "count": 50,
+      "file": "datasets/duplicate_removal_v001_seed43/test_latent.jsonl",
+      "sha256": "cff4c9a0b7579ac7ce8caf2914178e5db84b0724a97bcba47adca5ebd110b9df"
+    },
+    "train": {
+      "count": 500,
+      "file": "datasets/duplicate_removal_v001_seed43/train.jsonl",
+      "sha256": "c19fa994eab1c9da691ade4f2acf785c90ce03dde3b324900df8b81c132d09e8"
+    },
+    "validation": {
+      "count": 200,
+      "file": "datasets/duplicate_removal_v001_seed43/validation.jsonl",
+      "sha256": "88c9262c2dabab8ff8a30c5293b0f468197df8373764342db7cb6ff55acd65db"
+    }
+  }
+}

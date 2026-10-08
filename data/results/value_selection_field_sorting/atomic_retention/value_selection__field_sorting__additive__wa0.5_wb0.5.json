@@ -1,0 +1,75 @@
+{
+  "composition_id": "value_selection__field_sorting__additive__wa0.5_wb0.5",
+  "relationship_type": "related",
+  "retention_iid": [
+    {
+      "delta_a_composed": 0.42,
+      "delta_a_standalone": 0.94,
+      "delta_b_composed": 0.28,
+      "delta_b_standalone": 0.42000000000000004,
+      "interference_a": 0.52,
+      "interference_b": 0.14,
+      "retention_a": 0.48,
+      "retention_b": 0.86
+    },
+    {
+      "delta_a_composed": 0.52,
+      "delta_a_standalone": 0.96,
+      "delta_b_composed": 0.19999999999999996,
+      "delta_b_standalone": 0.43999999999999995,
+      "interference_a": 0.43999999999999995,
+      "interference_b": 0.24,
+      "retention_a": 0.56,
+      "retention_b": 0.76
+    },
+    {
+      "delta_a_composed": 0.5,
+      "delta_a_standalone": 1.0,
+      "delta_b_composed": 0.36,
+      "delta_b_standalone": 0.45999999999999996,
+      "interference_a": 0.5,
+      "interference_b": 0.09999999999999998,
+      "retention_a": 0.5,
+      "retention_b": 0.9
+    }
+  ],
+  "retention_latent": [
+    {
+      "delta_a_composed": 0.06,
+      "delta_a_standalone": 0.7,
+      "delta_b_composed": 0.3,
+      "delta_b_standalone": 0.37999999999999995,
+      "interference_a": 0.6399999999999999,
+      "interference_b": 0.07999999999999996,
+      "retention_a": 0.08571428571428572,
+      "retention_b": 0.9024390243902439
+    },
+    {
+      "delta_a_composed": 0.04,
+      "delta_a_standalone": 0.7,
+      "delta_b_composed": 0.24,
+      "delta_b_standalone": 0.30000000000000004,
+      "interference_a": 0.6599999999999999,
+      "interference_b": 0.06000000000000005,
+      "retention_a": 0.05714285714285715,
+      "retention_b": 0.9249999999999999
+    },
+    {
+      "delta_a_composed": 0.24,
+      "delta_a_standalone": 0.7,
+      "delta_b_composed": 0.31999999999999995,
+      "delta_b_standalone": 0.43999999999999995,
+      "interference_a": 0.45999999999999996,
+      "interference_b": 0.12,
+      "retention_a": 0.34285714285714286,
+      "retention_b": 0.8571428571428571
+    }
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "value_selection",
+  "skill_b": "field_sorting"
+}

@@ -1,0 +1,269 @@
+{
+  "rule": "Phase 2 all skills pass AND all qualification seed structural/core checks pass; dynamic success is an outcome",
+  "entries": [
+    {
+      "experiment": "additive_endpoint_control",
+      "source_kind": "directory",
+      "source": "results/raw/additive_endpoint_control",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 2,
+      "core_seed_passes": 6,
+      "core_seed_total": 6,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "additive_qualified_pair",
+      "source_kind": "directory",
+      "source": "results/raw/additive_qualified_pair",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 1,
+      "core_seed_passes": 3,
+      "core_seed_total": 3,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "additive_related",
+      "source_kind": "directory",
+      "source": "results/raw/additive_related",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 2,
+      "core_seed_passes": 6,
+      "core_seed_total": 6,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "cat_control",
+      "source_kind": "directory",
+      "source": "results/raw/cat_control",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 0,
+      "core_seed_passes": 0,
+      "core_seed_total": 0,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "cat_filtering_then_selection",
+      "source_kind": "directory",
+      "source": "results/raw/cat_filtering_then_selection",
+      "phase2_all_skills_pass": true,
+      "qualification_reports": 1,
+      "core_seed_passes": 0,
+      "core_seed_total": 3,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "cat_midpoint",
+      "source_kind": "directory",
+      "source": "results/raw/cat_midpoint",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 1,
+      "core_seed_passes": 3,
+      "core_seed_total": 3,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "cat_selection_then_filtering",
+      "source_kind": "directory",
+      "source": "results/raw/cat_selection_then_filtering",
+      "phase2_all_skills_pass": true,
+      "qualification_reports": 2,
+      "core_seed_passes": 0,
+      "core_seed_total": 6,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "field_renaming_key_value_swap",
+      "source_kind": "zip",
+      "source": "results/raw/field_renaming_key_value_swap/field_renaming_key_value_swap.zip",
+      "phase2_all_skills_pass": true,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": true,
+      "copied": true
+    },
+    {
+      "experiment": "field_reversal__key_value_swap",
+      "source_kind": "directory",
+      "source": "results/raw/field_reversal__key_value_swap",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "field_reversal_structured_classification",
+      "source_kind": "directory",
+      "source": "results/raw/field_reversal_structured_classification",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 0,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "field_reversal_value_normalization",
+      "source_kind": "zip",
+      "source": "results/raw/field_reversal_value_normalization/field_reversal_value_normalization.zip",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 0,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "field_sorting+field_reversal",
+      "source_kind": "directory",
+      "source": "results/raw/field_sorting+field_reversal",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 1,
+      "core_seed_passes": 3,
+      "core_seed_total": 3,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "field_sorting_duplicate_removal",
+      "source_kind": "zip",
+      "source": "results/raw/field_sorting_duplicate_removal/field_sorting_duplicate_removal.zip",
+      "phase2_all_skills_pass": true,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": true,
+      "copied": true
+    },
+    {
+      "experiment": "field_sorting_field_renaming",
+      "source_kind": "zip",
+      "source": "results/raw/field_sorting_field_renaming/field_sorting_field_renaming.zip",
+      "phase2_all_skills_pass": true,
+      "qualification_reports": 6,
+      "core_seed_passes": 0,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "field_sorting_value_normalization",
+      "source_kind": "directory",
+      "source": "results/raw/field_sorting_value_normalization",
+      "phase2_all_skills_pass": true,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": true,
+      "copied": true
+    },
+    {
+      "experiment": "field_sorting_value_selection",
+      "source_kind": "directory",
+      "source": "results/raw/field_sorting_value_selection",
+      "phase2_all_skills_pass": true,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": true,
+      "copied": true
+    },
+    {
+      "experiment": "key_prefixing_value_prefixing",
+      "source_kind": "zip",
+      "source": "results/raw/key_prefixing_value_prefixing/key_prefixing_value_prefixing.zip",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "key_suffixing_value_suffixing",
+      "source_kind": "zip",
+      "source": "results/raw/key_suffixing_value_suffixing/key_suffixing_value_suffixing.zip",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "key_value_swap__field_reversal",
+      "source_kind": "directory",
+      "source": "results/raw/key_value_swap__field_reversal",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "structured_classification_field_reversal",
+      "source_kind": "directory",
+      "source": "results/raw/structured_classification_field_reversal",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 0,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "value_normalization_field_reversal",
+      "source_kind": "zip",
+      "source": "results/raw/value_normalization_field_reversal/value_normalization_field_reversal.zip",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 0,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "value_prefixing_key_prefixing",
+      "source_kind": "zip",
+      "source": "results/raw/value_prefixing_key_prefixing/value_prefixing_key_prefixing.zip",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    },
+    {
+      "experiment": "value_selection_field_sorting",
+      "source_kind": "directory",
+      "source": "results/raw/value_selection_field_sorting",
+      "phase2_all_skills_pass": true,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": true,
+      "copied": true
+    },
+    {
+      "experiment": "value_suffixing_key_suffixing",
+      "source_kind": "zip",
+      "source": "results/raw/value_suffixing_key_suffixing/value_suffixing_key_suffixing.zip",
+      "phase2_all_skills_pass": false,
+      "qualification_reports": 6,
+      "core_seed_passes": 18,
+      "core_seed_total": 18,
+      "eligible": false,
+      "copied": false
+    }
+  ]
+}

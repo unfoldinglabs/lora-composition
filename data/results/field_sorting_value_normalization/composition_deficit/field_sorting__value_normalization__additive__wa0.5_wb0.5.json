@@ -1,0 +1,26 @@
+{
+  "composition_id": "field_sorting__value_normalization__additive__wa0.5_wb0.5",
+  "deficit_composition_ood": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "deficit_iid": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "deficit_latent": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "relationship_type": "overlapping",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_sorting",
+  "skill_b": "value_normalization"
+}

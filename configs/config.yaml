@@ -1,0 +1,181 @@
+experiment:
+  name: atomic_skill_registry
+  seed: 42
+  log_level: INFO
+
+model:
+  name: Qwen/Qwen2.5-0.5B-Instruct
+
+dataset:
+  split_sizes:
+    train: 500
+    validation: 200
+
+  test_sizes:
+    iid: 50
+    latent: 50
+
+lora:
+  rank: 8
+  alpha: 16
+  dropout: 0.05
+
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+
+training:
+  num_train_epochs: 2
+
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 8
+  gradient_accumulation_steps: 2
+
+  learning_rate: 0.0002
+  weight_decay: 0.0
+  warmup_ratio: 0.03
+
+  logging_steps: 25
+  eval_strategy: steps
+  save_strategy: steps
+  eval_steps: 32
+  save_steps: 32
+  load_best_model_at_end: true
+
+  max_seq_length: 512
+  gradient_checkpointing: false
+  optimizer: adamw_torch
+
+evaluation:
+  max_input_tokens: 512
+  max_new_tokens: 32
+  batch_size: 32
+
+atomic:
+  skills:
+    - structured_classification
+    - field_filtering
+    - field_sorting
+    - field_reversal
+    - value_normalization
+    - field_renaming
+    - duplicate_removal
+    - value_selection
+    - value_concatenation
+    - key_value_swap
+    - key_prefixing
+    - key_suffixing
+    - value_prefixing
+    - value_suffixing
+
+  seeds:
+    - 42
+    - 43
+    - 44
+
+atomic_gates:
+  # Primary learning criterion:
+  # mean LoRA IID accuracy must exceed the frozen base model
+  # by at least this amount.
+  minimum_iid_gain_over_base: 0.15
+
+  # Sanity floor preventing a large gain from a very weak baseline
+  # from qualifying a still-unreliable skill.
+  minimum_iid_accuracy: 0.75
+
+  # Generalization to deliberately held-out latent values.
+  minimum_latent_accuracy: 0.60
+
+  # Stability across independent training seeds.
+  maximum_iid_seed_std: 0.10
+  maximum_latent_seed_std: 0.10
+
+  # No individual seed may collapse completely.
+  minimum_per_seed_accuracy: 0.65
+  minimum_per_seed_latent_accuracy: 0.50
+
+composition:
+  # How the LoRA adapters are composed
+  composition_method: additive
+
+  # Reuse dedicated/base/constituent/endpoint controls across weights and
+  # methods within one composition sweep. Set false only for a fresh diagnostic.
+  reuse_static_evaluations: true
+
+  # Composition weights: equal weighted merging.
+  weight_pairs:
+    - {a: 0.25, b: 0.75}
+    - {a: 0.5, b: 0.5}
+    - {a: 0.75, b: 0.25}
+  default_weight_pair:
+    a: 0.5
+    b: 0.5
+
+  # Ordered skill pairs. If omitted, all ordered pairs are generated.
+  include_self_pairs: false
+
+  # Set true only for pairs where operation order is meaningful.
+  evaluate_reverse_order: true
+
+  # Number of examples per composite split.
+  composite_dataset_sizes:
+    train: 500
+    validation: 200
+    iid: 50
+    latent: 50
+    composition_ood: 50
+
+  # Broaden training without consuming the held-out OOD regimes:
+  # field count 7 is latent and field count 8 is composition-OOD.
+  composite_training_data:
+    field_counts: [3, 4, 5, 6]
+    value_offsets: [0, 1, 2, 3, 4, 5, 6]
+    output_formats: [lines, comma]
+
+  # Controlled sampling for value_selection -> field_sorting. Every generated
+  # split uses at least two selected fields and forces sorting to change their
+  # order, so the composite target contains both operations.
+  composite_sampling:
+    selected_counts: [2, 3]
+    require_unselected_field: true
+
+  # Maximum generated output length.
+  evaluation:
+    max_input_tokens: 512
+    max_new_tokens: 64
+    batch_size: 32
+
+  # Composition plumbing gates.
+  gates:
+    endpoint_accuracy_tolerance: 0.001
+    deterministic_required: true
+    adapter_mutation_required: true
+  determinism_examples: 5
+
+  # Composite-task validity gates.
+  task_gates:
+    max_constituent_iid_accuracy: 0.40
+    max_constituent_latent_accuracy: 0.40
+    minimum_joint_adapter_accuracy: 0.75
+    minimum_composed_adapter_accuracy: 0.75
+    minimum_composed_latent_accuracy: 0.50
+
+  # Used only with --sweep-methods. Routed requires a learned task router and
+  # is intentionally not included in the default executable sweep.
+  composition_methods: [
+    additive,
+    cat,
+    # svd,
+    # ties,
+    # sequential
+  ]
+
+paths:
+  datasets: datasets
+  adapters: adapters
+  runs: runs
+  skills: skills
+  compositions: compositions
+  evaluation: evaluation

@@ -1,0 +1,75 @@
+{
+  "composition_id": "field_sorting__value_normalization__cat__wa0.25_wb0.75",
+  "relationship_type": "overlapping",
+  "retention_iid": [
+    {
+      "delta_a_composed": 0.18000000000000005,
+      "delta_a_standalone": 0.42000000000000004,
+      "delta_b_composed": 0.86,
+      "delta_b_standalone": 0.86,
+      "interference_a": 0.24,
+      "interference_b": 0.0,
+      "retention_a": 0.76,
+      "retention_b": 1.0
+    },
+    {
+      "delta_a_composed": 0.05999999999999994,
+      "delta_a_standalone": 0.43999999999999995,
+      "delta_b_composed": 0.74,
+      "delta_b_standalone": 0.74,
+      "interference_a": 0.38,
+      "interference_b": 0.0,
+      "retention_a": 0.62,
+      "retention_b": 1.0
+    },
+    {
+      "delta_a_composed": 0.17999999999999994,
+      "delta_a_standalone": 0.45999999999999996,
+      "delta_b_composed": 0.74,
+      "delta_b_standalone": 0.74,
+      "interference_a": 0.28,
+      "interference_b": 0.0,
+      "retention_a": 0.72,
+      "retention_b": 1.0
+    }
+  ],
+  "retention_latent": [
+    {
+      "delta_a_composed": 0.06,
+      "delta_a_standalone": 0.37999999999999995,
+      "delta_b_composed": 0.88,
+      "delta_b_standalone": 0.88,
+      "interference_a": 0.31999999999999995,
+      "interference_b": 0.0,
+      "retention_a": 0.6097560975609756,
+      "retention_b": 1.0
+    },
+    {
+      "delta_a_composed": 0.0,
+      "delta_a_standalone": 0.30000000000000004,
+      "delta_b_composed": 0.88,
+      "delta_b_standalone": 0.88,
+      "interference_a": 0.30000000000000004,
+      "interference_b": 0.0,
+      "retention_a": 0.625,
+      "retention_b": 1.0
+    },
+    {
+      "delta_a_composed": 0.09999999999999998,
+      "delta_a_standalone": 0.43999999999999995,
+      "delta_b_composed": 0.84,
+      "delta_b_standalone": 0.84,
+      "interference_a": 0.33999999999999997,
+      "interference_b": 0.0,
+      "retention_a": 0.5952380952380952,
+      "retention_b": 1.0
+    }
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_sorting",
+  "skill_b": "value_normalization"
+}

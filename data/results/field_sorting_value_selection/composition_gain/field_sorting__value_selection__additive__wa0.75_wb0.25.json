@@ -1,0 +1,26 @@
+{
+  "composition_id": "field_sorting__value_selection__additive__wa0.75_wb0.25",
+  "gain_composition_ood": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gain_iid": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gain_latent": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "relationship_type": "related",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_sorting",
+  "skill_b": "value_selection"
+}

@@ -1,0 +1,31 @@
+{
+  "config_hash": "0c2de1a360adbbdc04c19b6240e246e037a495ba3c721bb18cfa20ff95e8d045",
+  "created_at": "2026-10-07T15:33:21Z",
+  "splits": {
+    "test_composition_ood": {
+      "count": 50,
+      "file": "datasets/composite/field_renaming__key_value_swap__additive__wa0.25_wb0.75/seed_42/test_composition_ood.jsonl",
+      "sha256": "f3f9c0c374e39364b34083782f5b03d03cecd743e71b0d87cd43a3e290b76bed"
+    },
+    "test_iid": {
+      "count": 50,
+      "file": "datasets/composite/field_renaming__key_value_swap__additive__wa0.25_wb0.75/seed_42/test_iid.jsonl",
+      "sha256": "b189090673185789af2ce71b7b43e9b74c0c3b9bfd01a0e5323dfabab0593026"
+    },
+    "test_latent": {
+      "count": 50,
+      "file": "datasets/composite/field_renaming__key_value_swap__additive__wa0.25_wb0.75/seed_42/test_latent.jsonl",
+      "sha256": "b0ee4a7ff93cefce570d534a3fa94a8a8ef76f74047261f8e0ffe7f870e2b85c"
+    },
+    "train": {
+      "count": 500,
+      "file": "datasets/composite/field_renaming__key_value_swap__additive__wa0.25_wb0.75/seed_42/train.jsonl",
+      "sha256": "2f8edeca8c50aed31d6baad6b05a9fd709ec16d82dfa4a262af045e490c29cfc"
+    },
+    "validation": {
+      "count": 200,
+      "file": "datasets/composite/field_renaming__key_value_swap__additive__wa0.25_wb0.75/seed_42/validation.jsonl",
+      "sha256": "878292b8b52152508aeba735e29eb50e7305efaba2c047ed8154976fdfd34517"
+    }
+  }
+}

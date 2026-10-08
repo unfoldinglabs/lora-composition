@@ -1,0 +1,31 @@
+{
+  "composition_id": "field_sorting__value_selection__cat__wa0.75_wb0.25",
+  "interference_a": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "interference_b": [
+    0.98,
+    1.0,
+    0.94
+  ],
+  "interference_latent_a": [
+    -0.040000000000000036,
+    0.0,
+    0.039999999999999925
+  ],
+  "interference_latent_b": [
+    0.7,
+    0.7,
+    0.7
+  ],
+  "relationship_type": "related",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_sorting",
+  "skill_b": "value_selection"
+}

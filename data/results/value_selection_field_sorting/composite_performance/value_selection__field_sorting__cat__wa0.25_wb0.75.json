@@ -1,0 +1,189 @@
+{
+  "composite": [
+    {
+      "test_composition_ood": {
+        "adapter_a_accuracy": 0.1,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 0.58,
+        "composition_gain": -0.1,
+        "constituent_max_accuracy": 0.1,
+        "dedicated_accuracy": 0.58,
+        "gain_over_base": 0.0
+      },
+      "test_iid": {
+        "adapter_a_accuracy": 0.14,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 0.98,
+        "composition_gain": -0.14,
+        "constituent_max_accuracy": 0.14,
+        "dedicated_accuracy": 0.98,
+        "gain_over_base": 0.0
+      },
+      "test_latent": {
+        "adapter_a_accuracy": 0.2,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 1.0,
+        "composition_gain": -0.2,
+        "constituent_max_accuracy": 0.2,
+        "dedicated_accuracy": 1.0,
+        "gain_over_base": 0.0
+      }
+    },
+    {
+      "test_composition_ood": {
+        "adapter_a_accuracy": 0.16,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 0.34,
+        "composition_gain": -0.16,
+        "constituent_max_accuracy": 0.16,
+        "dedicated_accuracy": 0.34,
+        "gain_over_base": 0.0
+      },
+      "test_iid": {
+        "adapter_a_accuracy": 0.12,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 1.0,
+        "composition_gain": -0.12,
+        "constituent_max_accuracy": 0.12,
+        "dedicated_accuracy": 1.0,
+        "gain_over_base": 0.0
+      },
+      "test_latent": {
+        "adapter_a_accuracy": 0.08,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 0.82,
+        "composition_gain": -0.08,
+        "constituent_max_accuracy": 0.08,
+        "dedicated_accuracy": 0.82,
+        "gain_over_base": 0.0
+      }
+    },
+    {
+      "test_composition_ood": {
+        "adapter_a_accuracy": 0.06,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 0.44,
+        "composition_gain": -0.06,
+        "constituent_max_accuracy": 0.06,
+        "dedicated_accuracy": 0.44,
+        "gain_over_base": 0.0
+      },
+      "test_iid": {
+        "adapter_a_accuracy": 0.24,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 0.96,
+        "composition_gain": -0.24,
+        "constituent_max_accuracy": 0.24,
+        "dedicated_accuracy": 0.96,
+        "gain_over_base": 0.0
+      },
+      "test_latent": {
+        "adapter_a_accuracy": 0.16,
+        "adapter_b_accuracy": 0.0,
+        "base_accuracy": 0.0,
+        "composed_accuracy": 0.0,
+        "composition_deficit": 0.94,
+        "composition_gain": -0.16,
+        "constituent_max_accuracy": 0.16,
+        "dedicated_accuracy": 0.94,
+        "gain_over_base": 0.0
+      }
+    }
+  ],
+  "composition_id": "value_selection__field_sorting__cat__wa0.25_wb0.75",
+  "relationship_type": "related",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "semantic": [
+    {
+      "test_composition_ood": {
+        "adapter_a": 0.1,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 0.58
+      },
+      "test_iid": {
+        "adapter_a": 0.14,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 0.98
+      },
+      "test_latent": {
+        "adapter_a": 0.2,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 1.0
+      }
+    },
+    {
+      "test_composition_ood": {
+        "adapter_a": 0.16,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 0.34
+      },
+      "test_iid": {
+        "adapter_a": 0.12,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 1.0
+      },
+      "test_latent": {
+        "adapter_a": 0.08,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 0.82
+      }
+    },
+    {
+      "test_composition_ood": {
+        "adapter_a": 0.06,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 0.44
+      },
+      "test_iid": {
+        "adapter_a": 0.24,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 0.96
+      },
+      "test_latent": {
+        "adapter_a": 0.16,
+        "adapter_b": 0.0,
+        "base": 0.0,
+        "composed": 0.0,
+        "dedicated": 0.94
+      }
+    }
+  ],
+  "skill_a": "value_selection",
+  "skill_b": "field_sorting"
+}

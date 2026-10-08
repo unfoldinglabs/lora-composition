@@ -1,0 +1,31 @@
+{
+  "composition_id": "field_renaming__key_value_swap__additive__wa0.75_wb0.25",
+  "interference_a": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "interference_b": [
+    0.45999999999999996,
+    0.62,
+    0.7
+  ],
+  "interference_latent_a": [
+    -0.039999999999999925,
+    0.039999999999999925,
+    0.0
+  ],
+  "interference_latent_b": [
+    0.43999999999999995,
+    0.6799999999999999,
+    0.64
+  ],
+  "relationship_type": "highly_similar",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_renaming",
+  "skill_b": "key_value_swap"
+}

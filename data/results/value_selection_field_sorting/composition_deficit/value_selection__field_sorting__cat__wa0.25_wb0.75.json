@@ -1,0 +1,26 @@
+{
+  "composition_id": "value_selection__field_sorting__cat__wa0.25_wb0.75",
+  "deficit_composition_ood": [
+    0.58,
+    0.34,
+    0.44
+  ],
+  "deficit_iid": [
+    0.98,
+    1.0,
+    0.96
+  ],
+  "deficit_latent": [
+    1.0,
+    0.82,
+    0.94
+  ],
+  "relationship_type": "related",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "value_selection",
+  "skill_b": "field_sorting"
+}

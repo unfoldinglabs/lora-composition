@@ -1,0 +1,26 @@
+{
+  "composition_id": "value_selection__field_sorting__cat__wa0.25_wb0.75",
+  "gain_composition_ood": [
+    -0.1,
+    -0.16,
+    -0.06
+  ],
+  "gain_iid": [
+    -0.14,
+    -0.12,
+    -0.24
+  ],
+  "gain_latent": [
+    -0.2,
+    -0.08,
+    -0.16
+  ],
+  "relationship_type": "related",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "value_selection",
+  "skill_b": "field_sorting"
+}

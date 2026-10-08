@@ -1,0 +1,26 @@
+{
+  "composition_id": "field_renaming__key_value_swap__cat__wa0.25_wb0.75",
+  "gain_composition_ood": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gain_iid": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "gain_latent": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "relationship_type": "highly_similar",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_renaming",
+  "skill_b": "key_value_swap"
+}

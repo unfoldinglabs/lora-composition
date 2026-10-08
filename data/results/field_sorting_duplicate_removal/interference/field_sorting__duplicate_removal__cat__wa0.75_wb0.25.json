@@ -1,0 +1,31 @@
+{
+  "composition_id": "field_sorting__duplicate_removal__cat__wa0.75_wb0.25",
+  "interference_a": [
+    0.020000000000000018,
+    0.0,
+    0.0
+  ],
+  "interference_b": [
+    0.78,
+    0.5800000000000001,
+    0.78
+  ],
+  "interference_latent_a": [
+    0.09999999999999998,
+    0.0,
+    0.039999999999999925
+  ],
+  "interference_latent_b": [
+    1.0,
+    0.96,
+    0.9
+  ],
+  "relationship_type": "overlapping",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "skill_a": "field_sorting",
+  "skill_b": "duplicate_removal"
+}

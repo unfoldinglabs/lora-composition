@@ -1,0 +1,31 @@
+{
+  "config_hash": "0c2de1a360adbbdc04c19b6240e246e037a495ba3c721bb18cfa20ff95e8d045",
+  "created_at": "2026-10-07T14:15:42Z",
+  "splits": {
+    "test_composition_ood": {
+      "count": 50,
+      "file": "datasets/composite/field_sorting__value_normalization__additive__wa0.5_wb0.5/seed_43/test_composition_ood.jsonl",
+      "sha256": "2585ddbce7ade2b1a136cf6e8538397296ee2ec089592ba074d7ea4e4def02bb"
+    },
+    "test_iid": {
+      "count": 50,
+      "file": "datasets/composite/field_sorting__value_normalization__additive__wa0.5_wb0.5/seed_43/test_iid.jsonl",
+      "sha256": "b18b6c255bbcd7bfe1e126a4450f7aedf3b87f94eca89274dd383bb79a38ba37"
+    },
+    "test_latent": {
+      "count": 50,
+      "file": "datasets/composite/field_sorting__value_normalization__additive__wa0.5_wb0.5/seed_43/test_latent.jsonl",
+      "sha256": "ef424d9411d46de50bee0e83fa77fd72137f0e099c7128302304b174de2f8e1d"
+    },
+    "train": {
+      "count": 500,
+      "file": "datasets/composite/field_sorting__value_normalization__additive__wa0.5_wb0.5/seed_43/train.jsonl",
+      "sha256": "7da924c310d37db4f08bfdbcb54285b90d2a21ed1407259226eaa2fec8f13c7f"
+    },
+    "validation": {
+      "count": 200,
+      "file": "datasets/composite/field_sorting__value_normalization__additive__wa0.5_wb0.5/seed_43/validation.jsonl",
+      "sha256": "1d82fa1a637b75b2b52b6eac6f8b880eb7cb9ca5de7b5fa3eb774f503c05b15a"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config_hash": "0c2de1a360adbbdc04c19b6240e246e037a495ba3c721bb18cfa20ff95e8d045",
+  "created_at": "2026-10-07T15:30:10Z",
+  "splits": {
+    "test_iid": {
+      "count": 50,
+      "file": "datasets/key_value_swap_v001_seed43/test_iid.jsonl",
+      "sha256": "031f092742edf3c61e833a54658b29804865b8f225d1a450f8202ed9646f52c5"
+    },
+    "test_latent": {
+      "count": 50,
+      "file": "datasets/key_value_swap_v001_seed43/test_latent.jsonl",
+      "sha256": "25539d17fb96dd0a34e466a74f43f32e67d481d0d994ff929334e5bbbc9b74e2"
+    },
+    "train": {
+      "count": 500,
+      "file": "datasets/key_value_swap_v001_seed43/train.jsonl",
+      "sha256": "61bd051c38fa24dc379ed2343f33d5ce308ec404ce28eaed79e58a63fd9caa33"
+    },
+    "validation": {
+      "count": 200,
+      "file": "datasets/key_value_swap_v001_seed43/validation.jsonl",
+      "sha256": "79fe9c7bf490bc91b5653151713bb3c5c1969583c62a19391051a93556ce6cdf"
+    }
+  }
+}

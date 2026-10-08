@@ -1,0 +1,26 @@
+{
+  "config_hash": "0c2de1a360adbbdc04c19b6240e246e037a495ba3c721bb18cfa20ff95e8d045",
+  "created_at": "2026-10-07T14:01:50Z",
+  "splits": {
+    "test_iid": {
+      "count": 50,
+      "file": "datasets/value_normalization_v001_seed44/test_iid.jsonl",
+      "sha256": "2b4c931f6aed6b20a6032fe0cab5cd738ddbd3f5ae4db8298c8ccc92e5d68283"
+    },
+    "test_latent": {
+      "count": 50,
+      "file": "datasets/value_normalization_v001_seed44/test_latent.jsonl",
+      "sha256": "3a227bb674a28e6534d010fa022fa48da1076e8f68caaab6d43fa886b713fa70"
+    },
+    "train": {
+      "count": 500,
+      "file": "datasets/value_normalization_v001_seed44/train.jsonl",
+      "sha256": "bfda2e4b71b29f25e6da6a3670a08b9dfd395d27c9637e86c72b7e6b55778e0e"
+    },
+    "validation": {
+      "count": 200,
+      "file": "datasets/value_normalization_v001_seed44/validation.jsonl",
+      "sha256": "72e5325006e90df6d7f7244285a064fdc10a2748bede542dfd760d5e4d31bb02"
+    }
+  }
+}
